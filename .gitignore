@@ -1,0 +1,6 @@
+# Build outputs
+build/
+dist/
+*.exe
+*.dll
+*.pdb

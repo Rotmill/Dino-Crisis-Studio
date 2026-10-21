@@ -1,0 +1,26 @@
+#include <winver.h>
+
+1 ICON "studio.ico"
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 0,1,0,0
+ PRODUCTVERSION 0,1,0,0
+ FILEOS VOS_NT_WINDOWS32
+ FILETYPE VFT_APP
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904B0"
+    BEGIN
+      VALUE "CompanyName", "Dino Crisis ME (fan mod)\0"
+      VALUE "FileDescription", "Dino Crisis ME Studio - view and export the game's content, convert mods\0"
+      VALUE "FileVersion", "0.1\0"
+      VALUE "ProductName", "Dino Crisis ME Studio\0"
+      VALUE "ProductVersion", "0.1\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+  BEGIN
+    VALUE "Translation", 0x409, 1200
+  END
+END
